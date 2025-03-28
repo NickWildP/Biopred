@@ -55,7 +55,7 @@ This app allows you to predict the bioactivity towards inhibting the `Telomerase
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](192.168.5.116:/home/nick/web_app/bioactivity_prediction/example.txt)
+[Example input file](example_acetylcholinesterase.txt)
 """)
 
 if st.sidebar.button('Predict'):
